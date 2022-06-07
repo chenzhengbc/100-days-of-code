@@ -7,6 +7,7 @@ The project scope is not known yet.
 https://developer.confluent.io/100-days-of-code/
 
 - Finished #1 Cloud Setup
+- Finished #1 local confluent application
 - Finished #1 Docker Setup, topic creation, produce message and consumer message
 ```
 docker exec broker \
