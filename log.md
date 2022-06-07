@@ -6,6 +6,24 @@
 The project scope is not known yet. 
 https://developer.confluent.io/100-days-of-code/
 
+- Finished #1 Cloud Setup
+- Finished #1 Docker Setup, topic creation, produce message and consumer message
+```
+docker exec broker \
+kafka-topics --bootstrap-server broker:9092 \
+             --create \
+             --topic quickstart
+
+docker exec --interactive --tty broker \
+kafka-console-producer --bootstrap-server broker:9092 \
+                       --topic quickstart
+
+docker exec --interactive --tty broker \                                             master  ✭ ✱
+kafka-console-consumer --bootstrap-server broker:9092 \
+                       --topic quickstart \
+                       --from-beginning             
+```
+
 
 
 **Thoughts:** I have been doing Kafka cources and readings for about two weeks. Really need to get my hands dirty by actually coding it.
