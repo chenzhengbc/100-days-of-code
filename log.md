@@ -29,4 +29,4 @@ kafka-console-consumer --bootstrap-server broker:9092 \
 
 **Thoughts:** I have been doing Kafka cources and readings for about two weeks. Really need to get my hands dirty by actually coding it.
 
-**Link to work:** [Kafka App](http://www.example.com)
+**Link to work:** [Docker Compose](https://github.com/chenzhengbc/100-days-of-code/tree/master/docker)
