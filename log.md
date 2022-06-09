@@ -30,3 +30,8 @@ kafka-console-consumer --bootstrap-server broker:9092 \
 **Thoughts:** I have been doing Kafka cources and readings for about two weeks. Really need to get my hands dirty by actually coding it.
 
 **Link to work:** [Docker Compose](https://github.com/chenzhengbc/100-days-of-code/tree/master/docker)
+
+### Day 1: June 8, 2022
+***Today's Progress***: Completed https://developer.confluent.io/learn-kafka/apache-kafka/events/
+Able to run demo project no problem
+
