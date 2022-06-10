@@ -25,7 +25,9 @@ public class SpringbootKafkaApplication {
   }
 
   public static void main(final String[] args) {
-    SpringApplication.run(SpringbootKafkaApplication.class, args);
+    SpringApplication springApplication = new SpringApplication(SpringbootKafkaApplication.class);
+    springApplication.setAdditionalProfiles("dev");
+    springApplication.run(args);
   }
 
 }

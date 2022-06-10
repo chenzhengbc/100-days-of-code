@@ -35,3 +35,7 @@ kafka-console-consumer --bootstrap-server broker:9092 \
 ***Today's Progress***: Completed https://developer.confluent.io/learn-kafka/apache-kafka/events/
 Able to run demo project no problem
 
+### Day 2: June 9, 2022
+***Today's Progress***: Completed https://developer.confluent.io/learn-kafka/apache-kafka/topics/
+Learn about the concept of topics.
+Created topic, created message
