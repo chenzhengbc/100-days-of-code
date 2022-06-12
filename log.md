@@ -39,3 +39,21 @@ Able to run demo project no problem
 ***Today's Progress***: Completed https://developer.confluent.io/learn-kafka/apache-kafka/topics/
 Learn about the concept of topics.
 Created topic, created message
+
+
+### Day 3: June 9, 2022
+***Today's Progress***: Completed spring boot example
+https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/java-springboot.html?ajs_aid=22b33cfc-40b3-42fb-a59f-a3906d2f23a0&ajs_uid=676219
+Checked the code and understood how it works
+Created topic, created message
+
+
+### Day 4: June 10, 2022
+***Today's Progress***: Completed Topics video https://developer.confluent.io/learn-kafka/apache-kafka/topics/ 
+
+
+### Day 5: June 11, 2022
+***Today's Progress***: Completed Partition Video https://developer.confluent.io/learn-kafka/apache-kafka/partitions/
+Also read about stream and how stream works - Kafka the definite guide, Chapter 11 - Stream Processing. 
+Details note and questions will be documented tomorrow.
+
