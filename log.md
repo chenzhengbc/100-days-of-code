@@ -57,3 +57,15 @@ Created topic, created message
 Also read about stream and how stream works - Kafka the definite guide, Chapter 11 - Stream Processing. 
 Details note and questions will be documented tomorrow.
 
+Kafka can run without zookeer https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/
+cat ./config/kraft/server.properties
+#### The role of this server. Setting this puts us in KRaft mode
+process.roles=broker, controller          
+#### The node id associated with this instance's roles node id=1
+#### The connect string for the controller quorum 
+controller.quorum.voters=1@localhost:9093  
+
+cat ./config/kraft/server.properties | grep '^listeners=' 
+listeners=PLAINTEXT://:9092,CONTROLLER://:9093
+
+[I] ➜ ./bin/kafka-server-start.sh -daemon ./config/kraft/server.properties
